@@ -1,0 +1,27 @@
+*{ /* Removing default styles from all elements */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-black: #000;
+    --main-white: #fff;
+    --main-font-family: 'DM Sans';
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--main-font-family);
+}
+
+/* Upper Banner */
+.upper-promotional-banner{
+    background-color: var(--main-black);
+    color: var(--main-white);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
