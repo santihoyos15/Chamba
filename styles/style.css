@@ -26,6 +26,8 @@ html{
     font-size: 1.4rem;
 }
 
+/* Header */
+
 .header-menu { 
     display: flex;
     flex-direction: row;
