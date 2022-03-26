@@ -25,3 +25,69 @@ html{
     align-items: center;
     font-size: 1.4rem;
 }
+
+.header-menu { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-color: #fff;
+}
+
+.header-menu--section1 {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0rem 0rem 1rem;
+}
+.header-menu--section2 {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem 0rem 0rem;
+}
+
+.header-menu--section3 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem 0rem 0rem;
+}
+
+.header-menu--section1--menu img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.header-menu--section2--didiou {
+    position: relative;
+    left: 5rem;
+}
+
+.header-menu--section3--contact img{
+    width: 5rem;
+    height: 5rem;
+    padding: 0rem .5rem;
+}
+
+.header-menu--section3--search img {
+    width: 5rem;
+    height: 5rem;
+    padding: 0rem .5rem;
+}
+
+.header-menu--section3--market img {
+    width: 5rem;
+    height: 5rem;
+    padding: 0rem .5rem;
+}
+
+.header-menu--section3--contact {
+   order: 2;
+}
+
+.header-menu--section3--search {
+  order: 1;
+}
+
+.header-menu--section3--market {
+    order: 3;
+}
+
