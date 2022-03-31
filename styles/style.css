@@ -26,11 +26,13 @@ html{
     font-size: 1.4rem;
 }
 
+
 .header-menu { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: var(--main-white);
+    max-width: 1900px;
 }
 
 .header-menu--section1 {
