@@ -1,0 +1,53 @@
+*{ /* Removing default styles from all elements */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-black: #000;
+    --main-white: #fff;
+    --main-font-family: 'DM Sans';
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--main-font-family);
+}
+
+/* Upper Banner */
+.upper-promotional-banner{
+    background-color: var(--main-black);
+    color: var(--main-white);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.header-menu { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--main-white);
+    margin: 2%;
+}
+
+.header-menu--section1--menu img {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.header-menu--section2 {
+    margin: 0 0 0 auto;
+}
+
+.header-menu--section3 figure {
+    display: none;
+}
+
+.header-menu--section2--didiou img {
+    width: auto;
+    height: 4.5rem;
+}
