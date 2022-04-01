@@ -82,14 +82,19 @@ html{
 }
 
 .header-menu--section3--contact {
-   order: 2;
+    order: 2;
 }
 
 .header-menu--section3--search {
-  order: 1;
+    order: 1;
 }
 
 .header-menu--section3--market {
     order: 3;
 }
-
+/* Landing section */
+.landing-img {
+    height: 90vh;
+    width: 80%;
+    object-fit: contain;
+}
