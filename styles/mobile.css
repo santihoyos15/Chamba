@@ -39,6 +39,10 @@ html{
     height: 4.5rem;
 }
 
+.header-menu--section1--dropdown {
+    display: none;
+}
+
 .header-menu--section2 {
     margin: 0 0 0 auto;
 }
