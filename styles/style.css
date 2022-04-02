@@ -30,13 +30,14 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    background-color: #fff;
+    background-color: var(--main-white);
 }
 
 .header-menu--section1 {
     display: flex;
     flex-direction: row;
     padding: 1rem 0rem 0rem 1rem;
+    display: block;
 }
 .header-menu--section2 {
     display: flex;
@@ -49,6 +50,30 @@ html{
     display: flex;
     flex-direction: row;
     padding: 1rem 1rem 0rem 0rem;
+}
+
+.header-menu--section1--menu{
+    border: none;
+    width: auto;
+    padding: 0%;
+    background-color: var(--main-white);
+    position: relative;
+}
+
+.header-menu--section1--menu--dropdown {
+    position: absolute;
+    background-color: #fff;
+}
+
+.header-menu--section1--menu--dropdown--ul li {
+    list-style: none;
+    font-size: 5rem;
+
+}
+
+.header-menu--section1--menu--dropdown--ul li a {
+    font-style: normal;
+    text-decoration: none;
 }
 
 .header-menu--section1--menu img {
